@@ -12,5 +12,6 @@ E.g. some of them are links, some of them contain text with sliding panel, some 
 Demo
 ====
 
+Best to see in on mobile.
 * Normal: **http://moka.co/cells/**
 * Responsive Design Tester: **http://moka.co/restest/#http://moka.co/cells/**
