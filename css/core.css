@@ -153,3 +153,16 @@ body.state960 .cell.s2x2 {
   width: 252px;
   height: 252px;
 }
+
+#git {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  width: 32px;
+  height: 32px;
+  background: url('http://moka.co/restest/img/icons.png') #fff no-repeat -99px -99px;
+}
+#git:hover {
+  background-position: -99px -66px;
+  background-color: #303030;
+}
