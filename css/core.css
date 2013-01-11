@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  background: #fff;
+  color: #ccc;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Helvetica;
+}
+#container {
+  width: 100%;
+  min-width: 318px;
+  /*max-width: 960px;*/
+
+  margin: 0 auto;
+  padding: 1px;
+}
+.cellContainer {
+  position: relative;
+}
+.cell {
+  position: absolute;
+  margin: 3px;
+  font-size: 24px;
+  text-align: center;
+  color: #666;
+  overflow: hidden;
+}
+.cell.s1x1 {
+  width: 154px;
+  height: 154px;
+  line-height: 154px;
+}
+.cell.s1x2 {
+  width: 154px;
+  height: 314px;
+  line-height: 314px;
+}
+.cell.s2x1 {
+  width: 314px;
+  height: 154px;
+  line-height: 154px;
+}
+.cell.s2x2 {
+  width: 314px;
+  height: 314px;
+  line-height: 314px;
+}
+.cell > div.inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.cell > div.inner.feed {
+  background: #505050;
+  line-height: 32px;
+  height: auto;
+  font-size: 32px;
+  font-weight: 100;
+  text-align: left;
+  color: #fff;
+}
+.cell > div.inner.feed > div {
+  padding: 8px;
+}
+body.stateLess960 div.cell > div.inner > div.logo {
+  font-size: 24px;
+  line-height: 24px;
+}
+body.state360 .cell {
+  margin: 1px;
+}
+body.state360 .cell.s1x1 {
+  width: 104px;
+  height: 104px;
+}
+body.state360 .cell.s1x2 {
+  width: 104px;
+  height: 210px;
+}
+body.state360 .cell.s2x1 {
+  width: 210px;
+  height: 104px;
+}
+body.state360 .cell.s2x2 {
+  width: 210px;
+  height: 210px;
+}
+body.state480 .cell {
+  margin: 1px;
+}
+body.state480 .cell.s1x1 {
+  width: 117px;
+  height: 117px;
+}
+body.state480 .cell.s1x2 {
+  width: 117px;
+  height: 236px;
+}
+body.state480 .cell.s2x1 {
+  width: 236px;
+  height: 117px;
+}
+body.state480 .cell.s2x2 {
+  width: 236px;
+  height: 236px;
+}
+body.state640 #container {
+  padding: 2px;
+}
+body.state640 .cell {
+  margin: 1px;
+}
+body.state640 .cell.s1x1 {
+  width: 118px;
+  height: 118px;
+}
+body.state640 .cell.s1x2 {
+  width: 118px;
+  height: 238px;
+}
+body.state640 .cell.s2x1 {
+  width: 238px;
+  height: 118px;
+}
+body.state640 .cell.s2x2 {
+  width: 238px;
+  height: 238px;
+}
+body.state960 .cell {
+  margin: 2px;
+}
+body.state960 .cell.s1x1 {
+  width: 124px;
+  height: 124px;
+}
+body.state960 .cell.s1x2 {
+  width: 124px;
+  height: 252px;
+}
+body.state960 .cell.s2x1 {
+  width: 252px;
+  height: 124px;
+}
+body.state960 .cell.s2x2 {
+  width: 252px;
+  height: 252px;
+}
