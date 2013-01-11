@@ -13,4 +13,4 @@ Demo
 ====
 
 * Normal: **http://moka.co/cells/**
-* [Responsive Design Tester](https://github.com/Maksims/restest): **http://moka.co/restest/#http://moka.co/cells/**
+* Responsive Design Tester: **http://moka.co/restest/#http://moka.co/cells/**
